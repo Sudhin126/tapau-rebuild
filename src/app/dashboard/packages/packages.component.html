@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-6" *ngFor="let serve of packk">
+        <!-- <div *ngFor="let serve of packk"> -->
+    <div class="card m-b-30">
+    <img class="card-img-top img-fluid" src="{{serve.image}}" alt="Card image cap">
+    <div class="card-body">
+    <h4 class="card-title font-16 mt-0">{{serve.name}}</h4>
+    <p class="card-text"></p>
+
+
+    <div class="d-flex justify-content-between">
+    <a class="btn btn-primary waves-effect waves-light" id="bt" >Edit</a> 
+    <a class="btn btn-primary waves-effect waves-light" (click)="deleteList(serve._id)" >Delete</a>
+    </div>      
+        
+    </div>
+</div>
+</div>
+</div>

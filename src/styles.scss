@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.bg-custom {
+    background-color: rgb(106, 6, 116);
+    color: white;
+}
+
+.text-custom {
+    color: rgb(106, 6, 116);
+}
+
+.active {
+    color: rgb(106, 6, 116);
+}

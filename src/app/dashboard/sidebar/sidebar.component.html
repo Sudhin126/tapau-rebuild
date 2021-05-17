@@ -1,0 +1,40 @@
+<div class="container-fluid bg-white h-100 rounded-3 shadow-sm border">
+    <div class="row py-3">
+        <div [routerLink]="['/dashboard']" routerLinkActive="active"  class="col-12  active py-3 pointer">
+            <i class="bi bi-house-door"></i>
+            <span class="ms-3">Dashboard</span>
+        </div>
+        <div [routerLink]="['./packages']" routerLinkActive="active"  class="col-12 py-3 pointer">
+            <i class="bi bi-briefcase"></i>
+            <span class="ms-3">Packages</span>
+        </div>
+        <div [routerLink]="['./customers']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-people"></i>
+            <span class="ms-3">Customers</span>
+        </div>
+        <div [routerLink]="['./orders']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-basket"></i>
+            <span class="ms-3">Order</span>
+        </div>
+        <div [routerLink]="['./transactions']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-calendar-event"></i>
+            <span class="ms-3">Transactions</span>
+        </div>
+        <div [routerLink]="['./staffs']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-person-badge"></i>
+            <span class="ms-3">Marketing staffs</span>
+        </div>
+        <div [routerLink]="['./dboys']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-person-bounding-box"></i>
+            <span class="ms-3">Delivery Boys</span>
+        </div>
+        <div [routerLink]="['./reviews']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-card-checklist"></i>
+            <span class="ms-3">Reviews</span>
+        </div>
+        <div [routerLink]="['./subadmins']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-shield-shaded"></i>
+            <span class="ms-3">Sub admins</span>
+        </div>
+    </div>
+</div>

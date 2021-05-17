@@ -1,0 +1,14 @@
+.h-custom{
+    height: calc(100vh - 135px);
+    overflow-y: scroll;
+}
+
+.h-custom::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .h-custom {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
